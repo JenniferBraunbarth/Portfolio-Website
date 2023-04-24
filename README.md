@@ -2,16 +2,17 @@
 
 ## Description:
 
-
 ## Technologies Used:
-* HTML
-* CSS
-* JavaScript
 
+- HTML
+- CSS
+- JavaScript
 
 ## Features:
-* responsive design
+
+- favicon
+- responsive design
 
 ## Demo:
-View project demo at www.jbraunbarth.de
 
+View project demo at www.jbraunbarth.de
