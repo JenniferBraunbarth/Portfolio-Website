@@ -11,8 +11,9 @@
 ## Features:
 
 - favicon
+- modal window
 - responsive design
 
 ## Demo:
 
-View project demo at www.jbraunbarth.de
+View project live at www.jbraunbarth.de

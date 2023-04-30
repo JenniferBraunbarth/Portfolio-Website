@@ -59,6 +59,7 @@
     <script src="logic.js" defer></script>
     <title>Jennifer Braunbarth</title>
   </head>
+
   <body>
     <header id="home">
       <nav>
@@ -70,7 +71,7 @@
           <li><a href="#about_me">Über mich</a></li>
           <li><a href="#my_projects">Meine Projekte</a></li>
           <li>
-            <button class="cta"><a href="#contact">Kontakt</a></button>
+            <a class="cta" href="#contact">Kontakt</a>
           </li>
         </ul>
       </nav>
@@ -78,7 +79,7 @@
         <article>
           <h1>Jennifer Braunbarth</h1>
           <p>Frontend Developer</p>
-          <button class="cta"><a href="#about_me">Über mich</a></button>
+          <a class="cta" href="#about_me">Über mich</a>
         </article>
         <figure><img src="img/hero.png" alt="Me working" /></figure>
       </div>
@@ -96,7 +97,7 @@
             weiterzubilden. Schauen Sie sich meine Projekte an, welche meine
             Fähigkeiten und Erfahrungen in der Webentwicklung veranschaulichen.
           </p>
-          <button class="cta"><a href="#my_projects">Meine Projekte</a></button>
+          <a class="cta" href="#my_projects">Meine Projekte</a>
         </article>
         <div class="icons">
           <p><i class="fa-brands fa-html5"></i> HTML5</p>
@@ -113,66 +114,102 @@
         </div>
       </div>
 
-      <div id="my_projects">
+      <div id="my_projects" class="my_projects">
         <h2>Meine Projekte</h2>
-        <div>
+        <div class="projects">
           <div class="card">
             <figure>
-              <img src="" alt="" />
+              <img
+                src="img/Screenshot_ KanbanBoard.png"
+                alt="Screenshot Kanban Board"
+              />
             </figure>
             <section>
               <h3>Kanban Board</h3>
-              <a href=""><i class="fa-solid fa-code"></i> Code</a> |
-              <a href=""><i class="fa-solid fa-laptop"></i> Demo</a>
+              <a
+                href="https://github.com/JenniferBraunbarth/To-Do-App-Kanban-Board"
+                class="target_blank"
+                ><i class="fa-solid fa-code"></i> Code</a
+              >
+              |
+              <a href="https://jb-to-do-app.netlify.app/" class="target_blank"
+                ><i class="fa-solid fa-laptop"></i> Demo</a
+              >
               <p>
                 Sehr nützliches Tool zum organisieren seiner Projekte, wie z.B.
                 bei der Erstellung seiner eigenen Portfolio Seite.
               </p>
             </section>
           </div>
-          <div>
+          <div class="card">
             <figure>
               <img
-                src="img/Screenshot.png"
-                alt="Screenshot"
+                src="img/Screenshot_ CreditcardChecker.png"
+                alt="Screenshot Creditcard Checker"
                 class="flex_basis_50"
               />
             </figure>
             <section>
-              <h2>Projekt 2</h2>
-              <a href=""><i class="fa-solid fa-code"></i> Code</a> |
-              <a href=""><i class="fa-solid fa-laptop"></i> Demo</a>
-              <p></p>
+              <h3>Creditcard Number Validator</h3>
+              <a
+                href="https://github.com/JenniferBraunbarth/Credit-Card-Number-Validator"
+                class="target_blank"
+                ><i class="fa-solid fa-code"></i> Code</a
+              >
+              |
+              <a
+                href="https://jb-credit-card-checker.netlify.app/"
+                class="target_blank"
+                ><i class="fa-solid fa-laptop"></i> Demo</a
+              >
+              <p>
+                Dieses Tool verfügt über einen Luhn-Algorithmus-Checker, der
+                Ihre Kartennummer analysiert.
+              </p>
             </section>
           </div>
-          <div>
+          <div class="card">
             <figure>
               <img
-                src="img/Screenshot Matcha.png"
+                src="img/Screenshot_Matcha.png"
                 alt="Screenshot Matcha Tribut"
               />
             </figure>
             <section>
-              <h2>Matcha Tribut</h2>
-              <a href=""><i class="fa-solid fa-code"></i> Code</a> |
-              <a href=""><i class="fa-solid fa-laptop"></i> Demo</a>
+              <h3>Matcha Tribut</h3>
+              <a
+                href="https://github.com/JenniferBraunbarth/Project-Matcha"
+                class="target_blank"
+                ><i class="fa-solid fa-code"></i> Code</a
+              >
+              |
+              <a href="https://jb-matcha.netlify.app/" class="target_blank"
+                ><i class="fa-solid fa-laptop"></i> Demo</a
+              >
               <p>
                 Warum eine Matcha Tribut Seite? - Mit Matcha programmiert es
                 sich leichter.
               </p>
             </section>
           </div>
-          <div>
+          <div class="card">
             <figure>
               <img
-                src="img/Screenshot Portfolio.png"
+                src="img/Screenshot_Portfolio.png"
                 alt="Screenshot Portfolio"
               />
             </figure>
             <section>
-              <h2>Portfolio</h2>
-              <a href=""><i class="fa-solid fa-code"></i> Code</a> |
-              <a href=""><i class="fa-solid fa-laptop"></i> Demo</a>
+              <h3>Portfolio</h3>
+              <a
+                href="https://github.com/JenniferBraunbarth/Portfolio-Website"
+                class="target_blank"
+                ><i class="fa-solid fa-code"></i> Code</a
+              >
+              |
+              <a href="" class="target_blank"
+                ><i class="fa-solid fa-laptop"></i> Demo</a
+              >
               <p>Mein Portfolio gibt dir einen kleinen Einblick.</p>
             </section>
           </div>
@@ -181,15 +218,20 @@
     </main>
 
     <footer id="contact">
+      <div class="modal"><i class="fa-solid fa-xmark close"></i></div>
       <div class="footer">
-        <div>
+        <div class="contact">
           <h2>Kontakt</h2>
-          <a href="" target="_blank"><i class="fa-brands fa-xing"></i> XING</a><br />
-          <a href="" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
-        </div>
-        <div>
-          <p><a href="" target="_blank">Datenschutz</a></p>
-          <p><a href="" target="_blank">Impressum</a></p>
+          <a
+            href="https://www.xing.com/profile/Jennifer_Braunbarth/cv"
+            class="target_blank"
+            ><i class="fa-brands fa-xing"></i> XING</a
+          ><br />
+          <a href="https://github.com/JenniferBraunbarth" class="target_blank"
+            ><i class="fa-brands fa-github"></i> GitHub</a
+          >
+          <p class="dsvgo">Datenschutz</p>
+          <p class="impressum">Impressum</p>
           <p>
             <i class="fa-regular fa-copyright"></i> 2023 Jennifer Braunbarth
           </p>
