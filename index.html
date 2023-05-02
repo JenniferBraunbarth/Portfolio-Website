@@ -62,19 +62,29 @@
 
   <body>
     <header id="home">
-      <nav>
-        <figure><img src="img/Logo.png" alt="Logo" /></figure>
-        <ul>
-          <li>
-            <a href="#home"><i class="fa-solid fa-house"></i></a>
-          </li>
-          <li><a href="#about_me">Über mich</a></li>
-          <li><a href="#my_projects">Meine Projekte</a></li>
-          <li>
-            <a class="cta" href="#contact">Kontakt</a>
-          </li>
-        </ul>
-      </nav>
+      <div class="topnav">
+        <input type="checkbox" id="navchecker" />
+        <p>
+          <label for="navchecker"
+            ><span class="line"></span> <span class="line"></span>
+            <span class="line"></span
+          ></label>
+        </p>
+        <nav>
+          <figure><img src="img/Logo.png" alt="Logo" /></figure>
+          <ul>
+            <li>
+              <a href="#home"><i class="fa-solid fa-house"></i></a>
+            </li>
+            <li><a href="#about_me">Über mich</a></li>
+            <li><a href="#my_projects">Meine Projekte</a></li>
+            <li>
+              <a class="cta" href="#contact">Kontakt</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
       <div class="hero">
         <article>
           <h1>Jennifer Braunbarth</h1>
@@ -116,104 +126,7 @@
 
       <div id="my_projects" class="my_projects">
         <h2>Meine Projekte</h2>
-        <div class="projects">
-          <div class="card">
-            <figure>
-              <img
-                src="img/Screenshot_ KanbanBoard.png"
-                alt="Screenshot Kanban Board"
-              />
-            </figure>
-            <section>
-              <h3>Kanban Board</h3>
-              <a
-                href="https://github.com/JenniferBraunbarth/To-Do-App-Kanban-Board"
-                class="target_blank"
-                ><i class="fa-solid fa-code"></i> Code</a
-              >
-              |
-              <a href="https://jb-to-do-app.netlify.app/" class="target_blank"
-                ><i class="fa-solid fa-laptop"></i> Demo</a
-              >
-              <p>
-                Sehr nützliches Tool zum organisieren seiner Projekte, wie z.B.
-                bei der Erstellung seiner eigenen Portfolio Seite.
-              </p>
-            </section>
-          </div>
-          <div class="card">
-            <figure>
-              <img
-                src="img/Screenshot_ CreditcardChecker.png"
-                alt="Screenshot Creditcard Checker"
-                class="flex_basis_50"
-              />
-            </figure>
-            <section>
-              <h3>Creditcard Number Validator</h3>
-              <a
-                href="https://github.com/JenniferBraunbarth/Credit-Card-Number-Validator"
-                class="target_blank"
-                ><i class="fa-solid fa-code"></i> Code</a
-              >
-              |
-              <a
-                href="https://jb-credit-card-checker.netlify.app/"
-                class="target_blank"
-                ><i class="fa-solid fa-laptop"></i> Demo</a
-              >
-              <p>
-                Dieses Tool verfügt über einen Luhn-Algorithmus-Checker, der
-                Ihre Kartennummer analysiert.
-              </p>
-            </section>
-          </div>
-          <div class="card">
-            <figure>
-              <img
-                src="img/Screenshot_Matcha.png"
-                alt="Screenshot Matcha Tribut"
-              />
-            </figure>
-            <section>
-              <h3>Matcha Tribut</h3>
-              <a
-                href="https://github.com/JenniferBraunbarth/Project-Matcha"
-                class="target_blank"
-                ><i class="fa-solid fa-code"></i> Code</a
-              >
-              |
-              <a href="https://jb-matcha.netlify.app/" class="target_blank"
-                ><i class="fa-solid fa-laptop"></i> Demo</a
-              >
-              <p>
-                Warum eine Matcha Tribut Seite? - Mit Matcha programmiert es
-                sich leichter.
-              </p>
-            </section>
-          </div>
-          <div class="card">
-            <figure>
-              <img
-                src="img/Screenshot_Portfolio.png"
-                alt="Screenshot Portfolio"
-              />
-            </figure>
-            <section>
-              <h3>Portfolio</h3>
-              <a
-                href="https://github.com/JenniferBraunbarth/Portfolio-Website"
-                class="target_blank"
-                ><i class="fa-solid fa-code"></i> Code</a
-              >
-              |
-              <a href="" class="target_blank"
-                ><i class="fa-solid fa-laptop"></i> Demo</a
-              >
-              <p>Mein Portfolio gibt dir einen kleinen Einblick.</p>
-            </section>
-          </div>
-        </div>
+        <div class="projects"></div>
       </div>
     </main>
 

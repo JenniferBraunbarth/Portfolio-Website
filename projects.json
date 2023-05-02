@@ -1,0 +1,34 @@
+[
+  {
+    "image": "img/Screenshot_KanbanBoard.png",
+    "alt": "Screenshot Kanban Board",
+    "title": "Kanban Board",
+    "codeLink": "https://github.com/JenniferBraunbarth/To-Do-App-Kanban-Board",
+    "demoLink": "https://jb-to-do-app.netlify.app/",
+    "description": "Sehr nützliches Tool zum organisieren seiner Projekte, wie z.B. bei der Erstellung seiner eigenen Portfolio Seite."
+  },
+  {
+    "image": "img/Screenshot_CreditcardChecker.png",
+    "alt": "Screenshot Creditcard Checker",
+    "title": "Creditcard Number Validator",
+    "codeLink": "https://github.com/JenniferBraunbarth/Credit-Card-Number-Validator",
+    "demoLink": "https://jb-credit-card-checker.netlify.app/",
+    "description": "Dieses Tool verfügt über einen Luhn-Algorithmus-Checker, der Ihre Kartennummer analysiert."
+  },
+  {
+    "image": "img/Screenshot_Matcha.png",
+    "alt": "Screenshot Matcha Tribut",
+    "title": "Matcha Tribut",
+    "codeLink": "https://github.com/JenniferBraunbarth/Project-Matcha",
+    "demoLink": "https://jb-matcha.netlify.app/",
+    "description": "Warum eine Matcha Tribut Seite? - Mit Matcha programmiert es sich leichter."
+  },
+  {
+    "image": "img/Screenshot_Portfolio.png",
+    "alt": "Screenshot Portfolio",
+    "title": "Portfolio",
+    "codeLink": "https://github.com/JenniferBraunbarth/Portfolio-Website",
+    "demoLink": "http://jbraunbarth.de",
+    "description": "Mein Portfolio gibt dir einen kleinen Einblick."
+  }
+]

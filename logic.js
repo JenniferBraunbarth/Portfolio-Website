@@ -1,6 +1,32 @@
 "use strict";
 
-// dsvgo / impressum MODAL
+// ----- project Cards -----
+let projectHTMLContent;
+const projectContainer = document.querySelector(".projects");
+
+const projectDisplay = (projects) => {
+  projects.forEach((project) => {
+    const projectCard = document.createElement("div");
+    projectCard.classList.add("card");
+    projectContainer.append(projectCard);
+
+    projectHTMLContent = `
+      <figure>
+        <img src="${project.image}" alt="${project.alt}">
+      </figure>
+      <section>
+        <h3>${project.title}</h3>
+        <a href="${project.codeLink}" target="_blank"><i class="fa-solid fa-code"></i> Code</a> |
+        <a href="${project.demoLink}" target="_blank"><i class="fa-solid fa-laptop"></i> Demo</a>
+        <p>${project.description}</p>
+      </section>
+    `;
+
+    projectCard.insertAdjacentHTML("beforeend", projectHTMLContent);
+  });
+};
+
+// ----- dsvgo / impressum MODAL -----
 let dsvgoContent;
 let dsvgoModal;
 let impressumContent;
@@ -34,30 +60,37 @@ const impressumEl = () => {
 const impressum = document.querySelector(".impressum");
 impressum.addEventListener("click", impressumEl);
 
+// ----- load Data txt/JSON -----
 const processDsvgo = (data) => {
   dsvgoContent = data;
-  dsvgoEl();
 };
 const processImpressum = (data) => {
   impressumContent = data;
-  impressumEl();
+};
+
+const processProjects = (data) => {
+  projectHTMLContent = data;
+  projectDisplay(projectHTMLContent);
 };
 
 const loadData = (url, callback) => {
   const xhr = new XMLHttpRequest();
   xhr.open("get", url);
   xhr.addEventListener("load", () => {
-    if (xhr.status == 200) callback(xhr.responseText);
-    else console.log(xhr.statusText);
+    if (xhr.status == 200) {
+      const contentType = xhr.getResponseHeader("Content-Type");
+      if (contentType.includes("application/json")) {
+        callback(JSON.parse(xhr.responseText));
+      } else {
+        callback(xhr.responseText);
+      }
+    } else {
+      console.log(xhr.statusText);
+    }
   });
   xhr.send();
 };
 
-// loadData("./impressum.txt", processImpressum);
-// loadData("./dsvgo.txt", processDsvgo);
-
-// all links open in new window
-const links = document.querySelectorAll(".target_blank");
-for (const link of links) {
-  link.setAttribute("target", "_blank");
-}
+loadData("./impressum.txt", processImpressum);
+loadData("./dsvgo.txt", processDsvgo);
+loadData("./projects.json", processProjects);
