@@ -1,5 +1,35 @@
 "use strict";
 
+// ----- sticky navigation -----
+const header = document.querySelector("#home");
+const nav = document.querySelector(".topnav");
+const navHeight = nav.getBoundingClientRect().height;
+
+const stickyNav = function (entries) {
+  const [entry] = entries;
+
+  if (!entry.isIntersecting) nav.classList.add("sticky");
+  else nav.classList.remove("sticky");
+};
+
+const headerObserver = new IntersectionObserver(stickyNav, {
+  root: null,
+  threshold: 0,
+  rootMargin: `-${navHeight}px`,
+});
+
+headerObserver.observe(header);
+
+// ----- smooth scrolling -----
+const handleClick = (e) => {
+  e.preventDefault();
+  let targetSection = document.querySelector(e.target.getAttribute("href"));
+  targetSection.scrollIntoView({ behavior: "smooth" });
+};
+
+const btnScrollTo = document.querySelectorAll(".btn_scroll_to");
+btnScrollTo.forEach((btn) => btn.addEventListener("click", handleClick));
+
 // ----- project Cards -----
 let projectHTMLContent;
 const projectContainer = document.querySelector(".projects");
@@ -91,6 +121,6 @@ const loadData = (url, callback) => {
   xhr.send();
 };
 
-loadData("./impressum.txt", processImpressum);
-loadData("./dsvgo.txt", processDsvgo);
 loadData("./projects.json", processProjects);
+loadData("./dsvgo.txt", processDsvgo);
+loadData("./impressum.txt", processImpressum);

@@ -160,7 +160,7 @@ p {
   .dsvgo:hover,
   .impressum:hover {
     background: var(--gradient);
-    background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
 
@@ -202,7 +202,7 @@ p {
   .icons > p > i {
     font-size: 2rem;
     background: var(--gradient);
-    background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   .my_projects {
@@ -264,6 +264,11 @@ p {
 
 /* ----- desktop ----- */
 @media only screen and (min-width: 550px) {
+  .sticky {
+    width: 100%;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.95);
+  }
   nav {
     display: flex;
     justify-content: space-between;
@@ -290,7 +295,7 @@ p {
   .dsvgo:hover,
   .impressum:hover {
     background: var(--gradient);
-    background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
 
@@ -320,7 +325,7 @@ p {
     display: flex;
     max-width: 70vw;
     margin: 5rem auto;
-    padding-top: 1rem;
+    padding-top: 5rem;
   }
   .about > article {
     text-align: justify;
@@ -337,12 +342,12 @@ p {
   .icons > p > i {
     font-size: 2rem;
     background: var(--gradient);
-    background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   .my_projects {
     margin: 5rem 1rem;
-    padding-top: 1rem;
+    padding-top: 5rem;
   }
   .projects {
     display: flex;

@@ -1,6 +1,7 @@
 # PORTFOLIO WEBSITE
 
 ## Description:
+
 Welcome to my personal portfolio website! Here, you will find a showcase of my web development projects using HTML, CSS, and JavaScript. From responsive web designs to interactive user interfaces, each project reflects my passion for creating beautiful and functional websites. I invite you to explore my portfolio and see how I bring my creativity and technical skills to life.
 
 ## Technologies Used:
@@ -15,6 +16,8 @@ Welcome to my personal portfolio website! Here, you will find a showcase of my w
 - modal window
 - responsive design
 - JSON
+- smooth scrolling
+- sticky navigation
 
 ## Demo:
 
