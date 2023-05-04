@@ -86,8 +86,9 @@ p {
     margin-right: 1rem;
     position: absolute;
     top: 6.25rem;
-    right: -12.5rem;
-    transition: 0.5s;
+    right: 0;
+    transition: ease 1.5s;
+    opacity: 0;
     z-index: 100;
     background-color: white;
     padding: 2rem;
@@ -99,9 +100,7 @@ p {
     display: none;
   }
   #navchecker:checked ~ nav > ul {
-    position: absolute;
-    right: 0;
-    top: 6.25rem;
+    opacity: 1;
   }
   #navchecker {
     position: absolute;
