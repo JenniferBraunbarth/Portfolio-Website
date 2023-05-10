@@ -30,5 +30,13 @@
     "codeLink": "https://github.com/JenniferBraunbarth/Portfolio-Website",
     "demoLink": "http://jbraunbarth.de",
     "description": "Mein Portfolio gibt dir einen kleinen Einblick."
+  },
+  {
+    "image": "img/Screenshot_LandingPage.png",
+    "alt": "Screenshot Landing Page",
+    "title": "Landing Page",
+    "codeLink": "https://github.com/JenniferBraunbarth/Landing-Page",
+    "demoLink": "https://jb-landing-page.netlify.app/",
+    "description": "Eine responsive Landing Page mit Implementierung des Bootstrap Frameworks."
   }
 ]
