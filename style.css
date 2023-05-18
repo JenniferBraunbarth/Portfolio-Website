@@ -193,7 +193,7 @@ p {
   }
   .icons {
     display: flex;
-    padding: 1rem;
+    justify-content: space-between;
   }
   .icons > p {
     font-size: 0.75rem;

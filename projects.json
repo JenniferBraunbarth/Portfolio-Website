@@ -8,14 +8,6 @@
     "description": "Sehr nützliches Tool zum organisieren seiner Projekte, wie z.B. bei der Erstellung seiner eigenen Portfolio Seite."
   },
   {
-    "image": "img/Screenshot_CreditcardChecker.png",
-    "alt": "Screenshot Creditcard Checker",
-    "title": "Creditcard Number Validator",
-    "codeLink": "https://github.com/JenniferBraunbarth/Credit-Card-Number-Validator",
-    "demoLink": "https://jb-credit-card-checker.netlify.app/",
-    "description": "Dieses Tool verfügt über einen Luhn-Algorithmus-Checker, der Ihre Kartennummer analysiert."
-  },
-  {
     "image": "img/Screenshot_Matcha.png",
     "alt": "Screenshot Matcha Tribut",
     "title": "Matcha Tribut",
@@ -32,11 +24,11 @@
     "description": "Mein Portfolio gibt dir einen kleinen Einblick."
   },
   {
-    "image": "img/Screenshot_LandingPage.png",
-    "alt": "Screenshot Landing Page",
-    "title": "Landing Page",
-    "codeLink": "https://github.com/JenniferBraunbarth/Landing-Page",
-    "demoLink": "https://jb-landing-page.netlify.app/",
-    "description": "Eine responsive Landing Page mit Implementierung des Bootstrap Frameworks."
+    "image": "img/Screenshot_DiveLogMap.png",
+    "alt": "Screenshot Dive Log Map",
+    "title": "Dive Log Map",
+    "codeLink": "https://github.com/JenniferBraunbarth/Dive-Log-Map",
+    "demoLink": "https://jb-dive-log-map.netlify.app/",
+    "description": "Log deine Tauchgänge auf der interaktiven Karte."
   }
 ]
