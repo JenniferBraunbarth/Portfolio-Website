@@ -5,7 +5,7 @@
     "title": "Kanban Board",
     "codeLink": "https://github.com/JenniferBraunbarth/To-Do-App-Kanban-Board",
     "demoLink": "https://jb-to-do-app.netlify.app/",
-    "description": "Dieses Kanban-Board ist ein nützliches Tool, dass ein visuelles System zur Organisierung seiner Projekte, wie z.B. bei der Erstellung seiner eigenen Portfolio Seite, bietet."
+    "description": "Dieses Kanban-Board bietet ein visuelles System, welches per Drag&Drop organisiert wird. Sehr nützliches Tool, z.B. bei der Erstellung seiner eigenen Portfolio Seite."
   },
   {
     "image": "img/Screenshot_Matcha.png",
@@ -21,7 +21,7 @@
     "title": "Portfolio",
     "codeLink": "https://github.com/JenniferBraunbarth/Portfolio-Website",
     "demoLink": "http://jbraunbarth.de",
-    "description": "Mein Portfolio gibt dir einen kleinen Einblick über meine Programmier-Skills."
+    "description": "Mein Portfolio gibt dir einen kleinen Einblick über mich und meine Programmier-Skills."
   },
   {
     "image": "img/Screenshot_DiveLogMap.png",
@@ -29,14 +29,14 @@
     "title": "Dive Log Map",
     "codeLink": "https://github.com/JenniferBraunbarth/Dive-Log-Map",
     "demoLink": "https://jb-dive-log-map.netlify.app/",
-    "description": "Log deine Tauchgänge auf der interaktiven Karte."
+    "description": "Log deine Tauchgänge auf der interaktiven Karte. Für Tauchbegeisterte wie mich und diejenigen die es noch werden wollen."
   },
   {
-    "image": "img/Screenshot_PictureGallery",
-    "alt": "Screenshot Picture Gallery",
-    "title": "Picture Gallery",
-    "codeLink": "https://github.com/JenniferBraunbarth/Picture-Gallery",
-    "demoLink": "https://jb-picture-gallery.netlify.app/",
-    "description": "Diese App nutzt die Pexels-API zum Abrufen und Anzeigen von zufälligen Bildern basierend auf deiner Sucheingabe."
+    "image": "img/Screenshot_GeoVisualizer",
+    "alt": "Screenshot GeoVisualizer",
+    "title": "GeoVisualizer",
+    "codeLink": "https://github.com/JenniferBraunbarth/GeoVisualizer",
+    "demoLink": "https://jb-geo-visualizer.netlify.app/",
+    "description": "Hier kannst du nach Koordinaten suchen und bekommst zugehörige Bilder darauf basierend angezeigt. Die App nutzt die Nominatim-API zur Abfrage von Standortinformationen und die Pexels-API zum Abrufen von Bildern."
   }
 ]
