@@ -1,13 +1,5 @@
 [
   {
-    "image": "img/Screenshot_KanbanBoard.png",
-    "alt": "Screenshot Kanban Board",
-    "title": "Kanban Board",
-    "codeLink": "https://github.com/JenniferBraunbarth/To-Do-App-Kanban-Board",
-    "demoLink": "https://jb-to-do-app.netlify.app/",
-    "description": "Dieses Kanban-Board bietet ein visuelles System, welches per Drag&Drop organisiert wird. Sehr nützliches Tool, z.B. bei der Erstellung seiner eigenen Portfolio Seite."
-  },
-  {
     "image": "img/Screenshot_Matcha.png",
     "alt": "Screenshot Matcha Tribut",
     "title": "Matcha Tribut",
