@@ -3,17 +3,17 @@
     "image": "img/Screenshot_Matcha.png",
     "alt": "Screenshot Matcha Tribut",
     "title": "Matcha Tribut",
-    "codeLink": "https://github.com/JenniferBraunbarth/Project-Matcha",
-    "demoLink": "https://jb-matcha.netlify.app/",
-    "description": "Eine Seite mit visuellen Elementen, wie Slider und Lightbox, natürlich mit Matcha."
+    "codeLink": "https://github.com/JenniferBraunbarth/Matcha",
+    "demoLink": "https://jb-matcha-tea.netlify.app/",
+    "description": "Dieses faszinierende Projekt präsentiert eine interaktive Webseite, die mit einem automatischen Slider für Bilder und einer Galerie ausgestattet ist. Es bietet den Benutzern die Möglichkeit, Bilder herunterzuladen und begeistert mit der Verwendung von async/await, um Daten über JSON-Dateien zu laden und die Inhalte dynamisch zu rendern. Tauche ein in die Welt des Matcha und erlebe ein einzigartiges Online-Erlebnis voller inspirierender visueller Eindrücke."
   },
   {
     "image": "img/Screenshot_Portfolio.png",
     "alt": "Screenshot Portfolio",
     "title": "Portfolio",
     "codeLink": "https://github.com/JenniferBraunbarth/Portfolio-Website",
-    "demoLink": "http://jbraunbarth.de",
-    "description": "Mein Portfolio gibt dir einen kleinen Einblick über mich und meine Programmier-Skills."
+    "demoLink": "https://jbraunbarth.de",
+    "description": "Willkommen in meinem Portfolio, wo ich meine Leidenschaft für das Programmieren zum Ausdruck bringe. Tauche ein und gewinne einen Einblick in meine Fähigkeiten und Projekte. Entdecke meine vielfältigen Programmierkenntnisse und erfahre mehr über mich als Programmiererin. Lass dich von meiner Arbeit inspirieren und entdecke, wie ich komplexe Aufgaben mit Kreativität und Präzision löse."
   },
   {
     "image": "img/Screenshot_DiveLogMap.png",
@@ -21,7 +21,7 @@
     "title": "Dive Log Map",
     "codeLink": "https://github.com/JenniferBraunbarth/Dive-Log-Map",
     "demoLink": "https://jb-dive-log-map.netlify.app/",
-    "description": "Log deine Tauchgänge auf der interaktiven Karte. Für Tauchbegeisterte wie mich und diejenigen die es noch werden wollen."
+    "description": "Log deine Tauchgänge auf einer interaktiven Leaflet-Karte mit meiner Anwendung. Erfasse wichtige Details und besondere Highlights jedes Tauchgangs. Diese Anwendung ist für Tauchbegeisterte wie mich und diejenigen, die es noch werden wollen. Erkunde die Funktionen, indem du neue Tauchgänge hinzufügst, die auf der Karte als Marker angezeigt werden. Klicke auf einen Tauchgang, um zu dessen Standort zu navigieren und weitere Informationen anzuzeigen."
   },
   {
     "image": "img/Screenshot_GeoVisualizer",
@@ -29,6 +29,6 @@
     "title": "GeoVisualizer",
     "codeLink": "https://github.com/JenniferBraunbarth/GeoVisualizer",
     "demoLink": "https://jb-geo-visualizer.netlify.app/",
-    "description": "Hier kannst du nach Koordinaten suchen und bekommst zugehörige Bilder darauf basierend angezeigt. Die App nutzt die Nominatim-API zur Abfrage von Standortinformationen und die Pexels-API zum Abrufen von Bildern."
+    "description": "Die App nutzt die Nominatim-API, um Standortinformationen abzufragen, und die Pexels-API, um passende Bilder zu finden. Gib einfach die gewünschten Breiten- und Längengrade ein und die App wird dann den Standort basierend auf den Koordinaten ermitteln und relevante Informationen und ein Bild, das mit dem gefundenen Standort verbunden ist, angezeien. Die Anwendung ist ideal, um die Welt zu erkunden und spannende Orte visuell zu entdecken. Viel Spaß beim Entdecken und Erforschen neuer Koordinaten!"
   }
 ]
