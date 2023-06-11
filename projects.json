@@ -24,7 +24,7 @@
     "description": "Log deine Tauchgänge auf einer interaktiven Leaflet-Karte mit meiner Anwendung. Erfasse wichtige Details und besondere Highlights jedes Tauchgangs. Diese Anwendung ist für Tauchbegeisterte wie mich und diejenigen, die es noch werden wollen. Erkunde die Funktionen, indem du neue Tauchgänge hinzufügst, die auf der Karte als Marker angezeigt werden. Klicke auf einen Tauchgang, um zu dessen Standort zu navigieren und weitere Informationen anzuzeigen."
   },
   {
-    "image": "img/Screenshot_GeoVisualizer",
+    "image": "img/Screenshot_GeoVisualizer.png",
     "alt": "Screenshot GeoVisualizer",
     "title": "GeoVisualizer",
     "codeLink": "https://github.com/JenniferBraunbarth/GeoVisualizer",

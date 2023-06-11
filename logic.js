@@ -1,34 +1,14 @@
 "use strict";
 
 // ----- sticky navigation -----
-const header = document.querySelector("#home");
-const nav = document.querySelector(".topnav");
-const navHeight = nav.getBoundingClientRect().height;
+import { initStickyNav } from "./stickyNav.js";
 
-const stickyNav = function (entries) {
-  const [entry] = entries;
-
-  if (!entry.isIntersecting) nav.classList.add("sticky");
-  else nav.classList.remove("sticky");
-};
-
-const headerObserver = new IntersectionObserver(stickyNav, {
-  root: null,
-  threshold: 0,
-  rootMargin: `-${navHeight}px`,
-});
-
-headerObserver.observe(header);
+initStickyNav();
 
 // ----- smooth scrolling -----
-const handleClick = (e) => {
-  e.preventDefault();
-  let targetSection = document.querySelector(e.target.getAttribute("href"));
-  targetSection.scrollIntoView({ behavior: "smooth" });
-};
+import { initSmoothScrolling } from "./smoothScrolling.js";
 
-const btnScrollTo = document.querySelectorAll(".btn_scroll_to");
-btnScrollTo.forEach((btn) => btn.addEventListener("click", handleClick));
+initSmoothScrolling();
 
 // ----- project Cards -----
 let projectHTMLContent;
