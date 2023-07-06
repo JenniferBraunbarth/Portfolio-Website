@@ -30,5 +30,13 @@
     "codeLink": "https://github.com/JenniferBraunbarth/GeoVisualizer",
     "demoLink": "https://jb-geo-visualizer.netlify.app/",
     "description": "Die App nutzt die Nominatim-API, um Standortinformationen abzufragen, und die Pexels-API, um passende Bilder zu finden. Gib einfach die gewünschten Breiten- und Längengrade ein und die App wird dann den Standort basierend auf den Koordinaten ermitteln und relevante Informationen und ein Bild, das mit dem gefundenen Standort verbunden ist, angezeien. Die Anwendung ist ideal, um die Welt zu erkunden und spannende Orte visuell zu entdecken. Viel Spaß beim Entdecken und Erforschen neuer Koordinaten!"
+  },
+  {
+    "image": "img/Screenshot_Travel_List.png",
+    "alt": "Screenshot Travel List",
+    "title": "Travel List",
+    "codeLink": "https://github.com/JenniferBraunbarth/Travel-List",
+    "demoLink": "https://jb-travel-list.netlify.app/",
+    "description": "Der Reiseplaner ist eine React-Anwendung, die Nutzern bei der Erstellung einer umfassenden Packliste für ihre Reisen helfen soll. Mit einer benutzerfreundlichen Oberfläche können Benutzer problemlos Gegenstände hinzufügen, markieren und löschen. Die Anwendung bietet Sortier- und Filteroptionen, um die Packliste nach Bedarf anzupassen. Eine praktische Lösung, um die Reisevorbereitungen zu erleichtern."
   }
 ]
